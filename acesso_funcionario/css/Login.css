@@ -1,0 +1,137 @@
+
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    background-image: url(../imagens/logo_lipestore.jfif) ;
+    background-size: cover;
+    background-position: 30% 40%;
+    background-repeat: no repeat;
+    min-height: 50vh;
+    min-height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a
+{
+    color: rgb(0, 0, 0);
+    background-image: url(../imagens/Home.png);
+}
+
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main.container
+{
+    background: rgb(255, 255, 255);
+    max-width: 350px;
+    min-height: 35vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    border-radius: 15px;
+}
+ 
+
+main h1
+{
+    font-weight: 800;
+    margin-bottom: 2rem;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+main h1::before
+{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    bottom: 1px;
+    left: 0;
+    border-radius: 8px;
+    background: gold;
+}
+
+
+
+form #loginn:first-child
+{
+    margin-bottom: 1.5rem;
+}
+
+
+#loginn input
+{
+    outline: auto;
+    font-size: 1rem;
+    color: black;
+    
+}
+
+
+#loginn input::placeholder
+{
+    color: rgb(0, 0, 0);
+    
+    border-width: 2px;
+    background: rgb(255, 255, 255);
+}
+
+form #v:first-child
+{
+    margin-bottom: 1.5rem;
+    
+}
+
+
+#senhaa input
+{
+    outline: auto;
+    font-size: 1rem;
+    color: black;
+}
+
+
+#senhaa input::placeholder
+{
+    color: rgb(0, 0, 0);
+    
+    border-width: 2px;
+    background: rgb(255, 255, 255);
+}
+
+
+form input[type="submit"]
+{
+    margin-top: 6rem;
+    padding: 0.6rem;
+    background: black;
+    cursor:pointer;
+    color:gold;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]
+{
+    letter-spacing: 2.5px;
+}
